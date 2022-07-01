@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+body {
+    background-color: #f4f3ee;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+a:active{
+    color: blue;
+}
+
+.conteiner {
+    max-width: 850px;
+    margin: auto;
+}
+.section {
+    margin-bottom: 20px;
+    padding: 25px;
+    border: 2px solid #f57b51;
+    border-radius: 6px;
+    
+}
+
+h1 {
+    font-weight: 400;
+     font-family: 'Nunito', sans-serif;
+   margin-top: 60px;
+   margin-bottom: 20px;
+
+}
+h2 {
+    font-weight: 400;
+      font-family: 'Nunito', sans-serif;
+   padding-bottom: 15px;
+    text-align: center;
+}   
+.mark1 ::marker {
+color: #f57b51;
+}
+.mark1 {
+    padding-left: 30px;
+   
+}
+
+.avatar {
+    width:200px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.c-title {
+   
+    font-weight: 600;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.c-text {
+    padding-bottom: 6px;
+}
+  
+.s-section  {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.c-timetable{
+    margin: auto;
+    width: 300px;
+}
+.name{
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+   padding-bottom: 15px;
+   font-size: 24px;
+}
+th{
+    border-bottom: 2px solid #f1b49f;
+}
+.courses {
+    margin: auto;
+    width: 600px; 
+    text-align: center;
+}
+.courses td, .courses th{
+padding: 5px;
+}
+.c-social {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+    margin: auto;
+    width: 300px;
+    
+}
